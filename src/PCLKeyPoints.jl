@@ -1,5 +1,16 @@
+"""
+The **pcl_keypoints** library contains implementations of two point cloud
+keypoint detection algorithms
+
+http://docs.pointclouds.org/trunk/group__keypoints.html
+
+## Exports
+
+$(EXPORTS)
+"""
 module PCLKeyPoints
 
+using DocStringExtensions
 using LibPCL
 using PCLCommon
 using Cxx
